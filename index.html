@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Codes APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background: #c8d1e4;
+            min-height: 100vh;
+            padding: 20px;
+            color: #ffffff;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header {
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 40px;
+            padding: 40px 0 30px;
+            animation: fadeInDown 0.6s ease;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            position: relative;
+            display: inline-block;
+            color: #004877;
+        }
+
+        .header p {
+            font-size: 1rem;
+            color: #707B8F;
+            font-weight: 400;
+            margin-top: 15px;
+        }
+
+        .card {
+            background: #2a2a2a;
+            border: none;
+            border-radius: 20px;
+            padding: 35px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+            margin-bottom: 20px;
+            animation: fadeInUp 0.6s ease;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .loading-section {
+            text-align: center;
+            padding: 50px 20px;
+            border-radius: 16px;
+            background: #2a2a2a;
+            position: relative;
+        }
+
+        .loading-section p {
+            font-size: 1.1rem;
+            color: #004877;
+            font-weight: 500;
+            margin-top: 25px;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 5px solid #3a3a3a;
+            border-top: 5px solid #004877;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .loading-spinner::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30px;
+            height: 30px;
+            border: 3px solid transparent;
+            border-top: 3px solid #004877;
+            border-radius: 50%;
+            animation: spin 0.7s linear infinite reverse;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .error-message {
+            color: #ffffff;
+            font-size: 1.1rem;
+            padding: 25px;
+            background: #3a3a3a;
+            border-radius: 16px;
+            border-left: 5px solid #004877;
+            position: relative;
+            padding-left: 60px;
+        }
+
+        /* Icono de error */
+        .error-message::before {
+            content: '⚠';
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: #004877;
+        }
+
+        .btn {
+            background: #004877;
+            color: #ffffff;
+            border: none;
+            padding: 14px 36px;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Noto Sans', sans-serif;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(216, 216, 216, 0.3);
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .btn:hover {
+            background: #63C1FF;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(55, 167, 241, 0.5);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 8px rgba(55, 167, 241, 0.3);
+        }
+
+        .search-section {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .search-section.active {
+            display: block;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .search-input {
+            flex: 1;
+            min-width: 250px;
+            padding: 14px 18px 14px 50px;
+            border: 2px solid #3a3a3a;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-family: 'Noto Sans', sans-serif;
+            transition: all 0.3s ease;
+            background: #2a2a2a;
+            color: #ffffff;
+            position: relative;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #004877;
+            box-shadow: 0 0 0 4px rgba(55, 167, 241, 0.15);
+            transform: translateY(-1px);
+        }
+
+        .search-input::placeholder {
+            color: #666666;
+        }
+
+        .results-section {
+            margin-top: 30px;
+        }
+
+        .result-card {
+            background: #2a2a2a;
+            padding: 18px 22px;
+            border-radius: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid #004877;
+            transition: all 0.3s ease;
+            animation: slideIn 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .result-card:hover {
+            background: #333333;
+            transform: translateX(6px);
+            box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+            border-left-width: 5px;
+        }
+
+        .result-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 10px;
+        }
+
+        .result-item {
+            padding: 6px 0;
+            position: relative;
+            padding-left: 10px;
+            font-size: 0.9rem;
+        }
+
+        /* Punto decorativo tipo bullet */
+        .result-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 4px;
+            background: #d0d0d0;
+            border-radius: 50%;
+        }
+
+        .result-label {
+            font-weight: 600;
+            color: #d0d0d0;
+            margin-right: 6px;
+            display: inline-block;
+            font-size: 0.85rem;
+        }
+
+        .result-value {
+            color: #d0d0d0;
+            font-weight: 400;
+            font-size: 0.85rem;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 40px;
+            color: #666666;
+            font-size: 1.1rem;
+            font-weight: 400;
+            position: relative;
+        }
+
+        /* Icono de sin resultados */
+        .no-results::before {
+            content: '📋';
+            display: block;
+            font-size: 48px;
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+
+        .file-info {
+            background: #2a2a2a;
+            padding: 18px;
+            border-radius: 16px;
+            margin-bottom: 25px;
+            display: none;
+            border: 1px solid #3a3a3a;
+            font-size: 0.95rem;
+            border-left: 4px solid #d0d0d0;
+        }
+
+        .file-info.active {
+            display: block;
+        }
+
+        .file-info strong {
+            color: #d0d0d0;
+            font-weight: 600;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .highlight {
+            background-color: #d0d0d0;
+            color: #1a1a1a;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 700;
+            box-shadow: 0 2px 8px rgba(216, 216, 216, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .search-box {
+                flex-direction: column;
+            }
+
+            .result-details {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                padding: 25px;
+            }
+
+            .search-input {
+                padding-left: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p class="logo">
+        <img src="assets/tpv-logo.png" alt="TPV Logo" width="80">
+    </p>
+    <div class="container">
+        <div class="header">
+            <h1>Codigos de error</h1>
+            <p>Problema, descripción y responsable</p>
+        </div>
+
+        <div class="card">
+            <div class="loading-section" id="loadingSection">
+                <div class="loading-spinner"></div>
+                <p>Cargando archivo ErrorCodes.xlsx...</p>
+            </div>
+
+            <div class="file-info" id="fileInfo"></div>
+
+            <div class="search-section" id="searchSection">
+                <div class="search-box">
+                    <input type="text" class="search-input" id="searchInput" placeholder="busca un código o defecto...">
+                    <button class="btn" onclick="performSearch()">Buscar</button>
+                </div>
+
+                <div class="results-section" id="resultsSection"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let excelData = [];
+        let headers = [];
+        let workbook = null;
+
+        // Cargar archivo automáticamente al cargar la página
+        window.addEventListener('DOMContentLoaded', () => {
+            loadExcelFile();
+        });
+
+        async function loadExcelFile() {
+            try {
+                const response = await fetch('assets/ErrorCodes.xlsx');
+                if (!response.ok) {
+                    throw new Error('No se pudo cargar el archivo ErrorCodes.xlsx');
+                }
+
+                const arrayBuffer = await response.arrayBuffer();
+                const data = new Uint8Array(arrayBuffer);
+                workbook = XLSX.read(data, { type: 'array' });
+
+                // Leer la primera hoja
+                const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+                const jsonData = XLSX.utils.sheet_to_json(firstSheet, { header: 1 });
+
+                if (jsonData.length > 0) {
+                    headers = jsonData[0].filter(h => h); // Remover headers vacíos
+                    excelData = jsonData.slice(1).filter(row => row.some(cell => cell)); // Remover filas vacías
+
+                    displayFileInfo('ErrorCodes.xlsx', excelData.length, headers.length);
+
+                    // Ocultar loading y mostrar búsqueda
+                    document.getElementById('loadingSection').style.display = 'none';
+                    document.getElementById('searchSection').classList.add('active');
+                    displayResults(excelData.slice(0, 15)); // Mostrar primeros 15 registros
+                }
+            } catch (error) {
+                document.getElementById('loadingSection').innerHTML = `
+                    <div class="error-message">
+                        Error al cargar el archivo: ${error.message}
+                        <br><br>
+                        Asegúrate de que el archivo ErrorCodes.xlsx esté en la carpeta /assets
+                    </div>
+                `;
+            }
+        }
+
+        function displayFileInfo(fileName, rows, cols) {
+            const fileInfo = document.getElementById('fileInfo');
+
+        }
+
+        function performSearch() {
+            const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+
+            if (!searchTerm) {
+                displayResults(excelData.slice(0, 15));
+                return;
+            }
+
+            // Buscar en todas las columnas
+            const results = excelData.filter(row => {
+                return row.some(cell => {
+                    if (cell === null || cell === undefined) return false;
+                    return String(cell).toLowerCase().includes(searchTerm);
+                });
+            });
+
+            displayResults(results, searchTerm);
+        }
+
+        function displayResults(results, searchTerm = '') {
+            const resultsSection = document.getElementById('resultsSection');
+
+            if (results.length === 0) {
+                resultsSection.innerHTML = '<div class="no-results">No se encontraron resultados</div>';
+                return;
+            }
+
+            let html = '';
+            results.forEach((row, index) => {
+                html += '<div class="result-card">';
+                html += '<div class="result-details">';
+
+                row.forEach((cell, colIndex) => {
+                    if (colIndex < headers.length && cell !== null && cell !== undefined && cell !== '') {
+                        let cellValue = String(cell);
+
+                        // Resaltar término de búsqueda
+                        if (searchTerm && cellValue.toLowerCase().includes(searchTerm)) {
+                            const regex = new RegExp(`(${searchTerm})`, 'gi');
+                            cellValue = cellValue.replace(regex, '<span class="highlight">$1</span>');
+                        }
+
+                        html += `
+                            <div class="result-item">
+                                <span class="result-label">${headers[colIndex]}:</span>
+                                <span class="result-value">${cellValue}</span>
+                            </div>
+                        `;
+                    }
+                });
+
+                html += '</div></div>';
+            });
+
+            resultsSection.innerHTML = html;
+        }
+
+        // Búsqueda en tiempo real
+        document.getElementById('searchInput').addEventListener('input', function () {
+            if (this.value.length >= 2 || this.value.length === 0) {
+                performSearch();
+            }
+        });
+
+        // Búsqueda con Enter
+        document.getElementById('searchInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+    </script>
+</body>
+
+<footer>
+    <p style="font-size: 0.8rem;">Nota: el responsable puede variar segun el contexto y la situacion de los hechos.</p>
+</footer>
+
+
+</html>
