@@ -1,0 +1,620 @@
+Error Code,Description Eng.,Description Esp.,Responsible Dept.
+AC01,Bad assembly part,Parte mal ensamblada,PD
+AC02,Missing Part,Parte ausente,PD
+AC03,Wrong Part,Parte Equivocada,PD
+AC04,Defective Panel,Panel Defectuoso,XM
+AC05,TV don't Turn ON,TV NO prende,PD
+AC06,Defective Image,Imagen defectuosa,PD
+AC07,Foreing material,Material Extraño,PD
+AC08,Connectors bad assembly,Conectores mal ensamblado,PD
+AC09,Missing Screw,Tornillos ausentes,PD
+AC10,Missing board,Placa ausente,PD
+AC11,Wrong board,Placa aquivocada (No match),PD
+AC12,Screw Striped,Tornillo barrido,PD
+AC13,Missing boss,Boss ausente,PD
+AC14,Missing plastic support,soporte de plastico ausente,PD
+AC15,Metal bad assembly,Metal mal ensamblado,PD
+AC16,IR board bad assembly,Placa de IR mal ensamblada,PD
+AC17,Board damaged,Placa dañada,PD
+AC18,Component damaged,Componente dañado,PD
+AC19,Connector bad assembly,Conector mal ensamblado,PD
+AC20,Conector with cable out,Connector cable salido,PD
+AC21,Pin bend on connector,Pin doblado en conector,PD
+AC22,Connector Damaged,Conector Dañado,PD
+AC23,Panel broken,Panel quebrado,PD
+AC24,Panel scratch,Panel rayado,PD
+AC25,Defective wire dressing,Amarre de cable defectuoso,PD
+AC26,Missing tapes,Tapes ausentes,PD
+AC27,Part change,Cambio de parte,XM
+AC28,Material damaged,Material Dañado,XM
+AC29,Missing mylar,Mylar ausente,PD
+BLU00,MISSING TAPES,TAPES AUSENTES,PD
+BLU01,Can't adjust flicker,No ajusta flicker,PD
+BLU02,Lamps OFF,Lamparas apagadas,PD
+BLU03,Foreing material on backlight,Material extraño en backlight,PD
+BLU04,Difuser sheets damaged,Hojas difusoras dañadas,PD
+BLU05,Bezel damaged,Bezel dañado,PD
+BLU06,Cell broken,Celda dañada,PD
+BLU07,Cell scratch,Celda rayada,PD
+BLU08,Difuser sheets stain,Hoja difusora manchada,PD
+BLU09,Buble in the Cell,Burbuja en la Celda,XM
+BLU10,Missing screws,Tornillos ausentes,PD
+BLU11,Bad assembly for middle bezel,Mal ensamble del middle bezel,PD
+BLU12,TAPES BAD ASSEMBLY,MAL ENSAMBLE DE TAPES,PD
+BLU13,MISSING TAPES,TAPES AUSENTES,PD
+BLU14,Yellow Mylar bad assembly,Mylar amarillo mal ensamblado,PD
+BLU15,CONNECTORS BAD ASSEMBLY,CONECTORES MAL ENSAMBLADOS,PD
+BLU16,CLAMPS BAD ASSEMBLY,MAL ENSAMBLE DE CLAMPS,PD
+BLU17,RUBBERS MISSING,RUBBERS AUSENTES,PD
+BLU18,COF DAMAGED,COF DAÑADOS,PD
+BLU19,LOOSE SCREW,TORNILLO FLOJO,PD
+BLU20,OPEN CELL BAD ASSEMBLY,CELDA MAL ENSAMBLADA,PD
+BLU21,METAL BLU RAYADO,METAL BLU SCRATCH,PD
+BLU22,METAL BLU BENDING,METAL BLU DOBLADO,PD
+BU603,FLICKER,FLICKER,
+MC01,Back cover quebrado,Back cover quebrado,
+MC02,Back cover rayado,Back cover rayado,
+MC03,Back cover dañado,Back cover dañado,PD
+MC04,Back cover ausente,Back cover ausente,PD
+MC05,Bocinas oxidadas,Bocinas oxidadas,
+MC06,Bocinas dañadas,Bocinas dañadas,
+MC07,Bocinas ausentes,Bocinas ausentes,
+MC08,Plastic frame dañado,Plastic frame dañado,
+MC09,Plastic frame quebrado,Plastic frame quebrado,
+MC10,Plastic frame ausente,Plastic frame ausente,
+MC11,Controles Ausentes,Controles Ausentes,
+MC12,Baterias oxidadas,Baterias oxidadas,
+MC13,Baterias ausentes,Baterias ausentes,
+MC14,Power board dañada,Power board dañada,
+MC15,Ac power ausente,Ac power ausente,
+MC16,DECO REAR COVER  DAÑADO,DECO REAR COVER  DAÑADO,
+MC17,Material mezclado,Material mezclado,
+MC18,Material fuera de SPEC,Material fuera de SPEC,
+MC19,Numero de parte equivocado,Numero de parte equivocado,
+MC20,Material extraño,Material extraño,
+MC21,Material faltante,Material faltante,
+MC22,Material dañado,Material dañado,
+MC23,Material dañado TSCEM,Material dañado TSCEM,
+ML01,Cajas dañadas,Cajas dañadas,
+ML02,Cajas quebradas,Cajas quebradas,
+ML03,Cajas rayadas,Cajas rayadas,
+ML04,Cajas ausentes,Cajas ausentes,
+ML05,Cajas despegadas,Cajas despegadas,
+ML06,Gap,Gap,
+ML07,Tilt,Tilt,
+ML08,Burbujas,Burbujas,
+ML09,Ceja salida,Ceja salida,
+ML10,Manchadas,Manchadas,
+ML11,Etiqueta despegada,Etiqueta despegada,
+ML12,Flauta invertida,Flauta invertida,
+ML13,Impresion movida,Impresion movida,
+ML14,Manual dañado,Manual dañado,
+ML15,Manual ausente,Manual ausente,
+ML16,Manual incompleto,Manual incompleto,
+ML17,Manual doble,Manual doble,
+ML18,Manual manchado,Manual manchado,
+ML19,Manual mal impreso,Manual mal impreso,
+ML20,Manual sin grapas,Manual sin grapas,
+ML21,Manual con rebaba,Manual con rebaba,
+ML22,Mainboard dañada,Mainboard dañada,
+ML23,Main board quebrada,Main board quebrada,
+ML24,Main board ausente,Main board ausente,
+ML25,Main board falta de soldadura,Main board falta de soldadura,
+ML26,Main board con falta de componente,Main board con falta de componente,
+ML27,Main board con corto en soldadura,Main board con corto en soldadura,
+ML28,Main board conector ausente,Main board conector ausente,
+ML29,Main board conector dañado,Main board conector dañado,
+ML30,Main board pin doblado,Main board pin doblado,PD
+ML31,Main board KP label ausente,Main board KP label ausente,
+ML32,Cushion dañado,Cushion dañado,
+ML33,Cushion quebrado,Cushion quebrado,
+ML34,Cushion ausente,Cushion ausente,
+ML35,Cushion manchado,Cushion manchado,
+ML36,Numero de parte equivocado,Numero de parte equivocado,
+ML37,Material mezclado,Material mezclado,
+ML38,Material fuera de SPEC,Material fuera de SPEC,
+ML39,Material extraño,Material extraño,
+RC01,BACKCOVER LOCKS DAMAGED,SEGUROS DE CUBIERTA TRASERA DAÑADOS,PD
+RC02,FILM PROTECTOR DAMAGED,PROTECTOR DAÑADO,PD
+RC03,MISSING LABEL,ETIQUETA AUSENTE,PD
+RC04,IR LENS SCRATCH,LENTE DE IR RAYADO,PD
+RC05,BUTTONS PAINT SCRATCH,PINTURA DE BOTONES RAYADA,PD
+RC06,FRONT COVER SCRATCH,CUBIERTA FRONTAL RAYADA,PD
+RC07,COVERS BAD ASSEMBLY,CUBIERTAS MAL ENSAMBLADAS,PD
+RC08,COVERS DAMAGED,CUBIERTAS DAÑADAS,PD
+TA01,PC IN audio no sound,Entrada PC IN sin audio,PD
+TA02,HDMI no sound,Modo HDMI sin audio,PD
+TA03,Component no Audio,Modo ComponenteI sin audio,PD
+TA04,No audio on s-video input,No audio en entrada de  S-video,PD
+TA05,AV (CVBS/S-Video) no sound,Modo AV sin audio,PD
+TA07,V-chip no sound,V-chip sin audio,PD
+TA08,No audio on optical out,Salida optica sin audio,PD
+TA09,HP no sound (no wave),HP sin audio,PD
+TA10,Audio out no sound (no wave),Salida audio ausente,PD
+TA11,ATV no sound,Modo ATV sin audio,PD
+TA12,DTV no sound,Modo DTV sin audio,PD
+TA13,V-chip TV no sound,V-chip sin audio,PD
+TA14,PC IN audio abnormal sound,Sonido anormal modo PC IN,PD
+TA15,HDMI abnormal sound,Sonido anormal modo HDMI,PD
+TA16,Component abnormal sound,Sonido anormal modo Componente,PD
+TA17,AV (CVBS/S-Video) abnormal sound,Sonido anormal modo AV,PD
+TA20,Volume no function,Volumen no funciona,PD
+TA21,Volume Balance no function,Balance Volumen no funciona,PD
+TA22,Mute no function,Mute no funciona,PD
+TA23,Mechanical vibration,Vibration mecanica,PD
+TA24,Sound buzz,Zumbido en el audio,PD
+TA25,speaker noise,Ruido en las bocinas,PD
+TA26,AUDIO OUTPUT DAMAGED,SALIDA DE AUDIO DAÑADA,XM
+TA27,Strange noise on power board,Sonido extrano en la placa de power,PD
+TA28,No audio in sub-woofer,No hay audio en el sub-woofer,PD
+TA29,A/V inputs bad assembly on PCBA-M,A/V entradas mal ensambladas en la PCBA-M,PD
+TA30,NO AUDIO on any mode,NO AUDIO en ningun modo,PD
+TA31,Headphone output doen't work,No funciona salida de Audifono,PCB maker
+TA32,Falla en Tweeter,Tweeter fail,PD
+TB01,Keypad bad assembly,Control panel mal ensamblado,PD
+TB02,wrong keypad,Control panel equivocado,PD
+TB03,Keypad different color,Color diferente en el control panel,PD
+TB04,Buttons blocked,Botones bloqueados,PD
+TB05,Dis-paint buttons,Botones despintados,PD
+TB06,Power button doesn't work,No funciona boton de power,PD
+TB07,Don't work 1 o more buttons on the Keypad,No funciona 1 o mas botones en el control panel,PD
+TB08,Power button wrong assembly,Boton de power mal ensamblado,PD
+TD01,White screen,Imagen Blanca,PD
+TD02,No image on all inputs,No imagen en ningun modo,PD
+TD03,Bad pixels over spec,"Pixeles apagados, fuera de specificacion",PD
+TD04,VGA mode no display,Modo VGA sin imagen,PD
+TD05,DVI mode no display,Modo DVI sin imagen,PD
+TD06,HDMI 1 mode no display,Modo HDMI 1 sin imagen,PD
+TD07,S-video no display,Modo S-Video sin imagen,PD
+TD11,Composite video no image,Modo Compuesto sin imagen,PD
+TD12,SCard CVBS no display,Modo CVBS/SCART sin imagen,
+TD13,Component no display,Modo Componente sin imagen,
+TD14,ATV no picture,Modo ATV sin imagen,
+TD15,DTV no picture,Modo DTV sin imagen,
+TD16,V-chip TV no picture,V-chip ausente,
+TD17,Image abnormal of VGA mode,Imagen anormal modo VGA,
+TD18,Image abnormal of DVI mode,Imagen anormal modo DVI,
+TD19,Image abnormal of HDMI,Imagen anormal modo HDMI,
+TD20,Image abnormal of S-video,Imagen anormal modoS-Video,
+TD22,Image abnormal of Composite video,Imagen anormal modo Composite Video,
+TD23,Image abnormal of Component,Imagen anormal modo Componente,
+TD24,Image Distortion,Imagen distorsionada,PD
+TD25,White pixels on the screen,Pixeles blancos brillosos,PD
+TD26,Image with different color,Imagen diferente color,PD
+TD27,Image abnormal all inputs,Imagen anormal todos los modos,
+TD28,Mura en el panel,Panel with Mura,PD
+TD29,Vertical line on image,Linea Vertical  en imagen,PD
+TD30,Horizontal line on image,Linea horizontal en imagen,PD
+TD31,Can't tune Channels,No sintoniza canales,RD
+TD32,Intermitent image,Imagen Intermitente,RD
+TD33,Picture noise on ATV mode,Ruido en imagen modo ATV,PE
+TD34,HDMI Input blocked,Entrada de HDMI bloqueada,PD
+TD35,VIZIO SCREEN MISSING,VIZIO SCREEN MISSING,RD
+TD36,Abnormar Image In ATV,Imagen anormal en ATV,PD
+TD37,panel light leak,Fuga de luz del panel,PD
+TD38,ADC adjust NG,Mal ajuste de ADC,XM
+TD39,Foreing material in panel,Material extraño en el panel,PD
+TD40,NO DP SIGNAL,NO SEÑAL DP,FQ
+TD41,NO HDMI 2 display,No video en HDMI 2,XM
+TD42,NO HDMI 3 display,No video en HDMI 3,XM
+TD43,NO HDMI 4 display,No video en HDMI 4,XM
+TD44,NO HDMI 5 display,No video en HDMI 5,XM
+TD45,Dark picture,Imagen oscura,XM
+TD46,Panel Lamps OFF,Lamparas del panel apagadas,XM
+TD47,Don't adjust DEMURA,No ajusta DEMURA,QA
+TD48,Bubles into the cell,Burbujas dentro de la celda,XM
+TD49,Foreing material in Open cell,Material extraño en la celda,PD
+TD50,BC light leakege,Fuga de luz en BC,PD
+TD51,Image V Block off,Vertical block en imagen,PD
+TE01,Base mal ensamblada,Base mal ensamblada,
+TE02,Stand base missing,Base ausente,PD
+TE03,Wrong base,Base equivocada,PD
+TE04,Base clip bent,Clip de la base doblado,PD
+TE05,Base clip broken,Clip de la base quebrado,PD
+TE06,Base crack,Base quebrada,PD
+TE07,Hit base,Base golpeada,PD
+TE08,Base stand bad packing,Mal empaque de la base,PD
+TE09,Rubber foot missing,Gomas de la base ausente,PD
+TE10,Base clip bad assembly,clip de la base mal ensamblado,PD
+TE11,Base rubber dirty,Gomas de la base sucias,PD
+TE12,Bad packed set,Set mal empacado,PD
+TE13,PE bag bad closed on the TV,Bolsa mal cerrada en la TV,PD
+TE14,2 or more HINGE,2 o mas HINGE,PD
+TE15,Stand base bad assembly,Mal ensamble de stand base,XM
+TE16,STAND BASE CAN NOT ASSEMBLY,NO ENSAMBLA BASE,PD
+TF01,No power,No enciende,
+TF02,Keyboard no function,Control panel no funcionan botones,
+TF03,Remote control no function,Control Remoto no funciona,
+TF04,Closed caption no function,no funciona closed caption,
+TF05,OSD menu no display,Menu OSD ausente,
+TF06,OSD abnormal functions,Funcionamiente OSD anormal,
+TF09,Wrong SW version/FACTORY data,Version SW/Fabrica equivocada,
+TF10,Initialization NG,Inicializacion NG,
+TF11,Microphone does not receive input,Salida para Audifono no funciona,
+TF12,V-chip no display,No aparece V-Chip,
+TF13,RS232 communication NG,Comunicacion RS232 NG,
+TF14,Dimming sensor no function,Sensor Luz No funciona,
+TF17,External speakers test fail,Falla de bocinas externas,
+TF21,USB Port Can't read data,Puerto  USB no lee datos,
+TF22,No OSD abnormal,OSD ausente,
+TF24,OSD S/N Wrong,Num Serie en OSD equivocado,
+TF25,Shut down,Se apaga,PD
+TF26,Output voltage abnormall,Voltaje Salida anormal,
+TF27,No factory reset,No factory reset,RD
+TF28,Firmware NG,Firmware NG,RD
+TF29,Control panel sensors don't work,Sensores del control panel no funcionan,PD
+TF30,TV don't tune channels,TV no sintoniza canales,RD
+TF31,TV don't turn OFF,TV no se apaga,XM
+TF32,TV turns ON by itself,TV se enciende sola,XM
+TF33,Bluetooth NG,Bluetooth NG,XM
+TF34,No MAC address data,No existe dato de MAC address,PD
+TF35,No serial number data,No hay numero de serie grabado,PD
+TF36,OTP NG,OTP NG,HANIL / XM
+TF37,NO  comunication con PC,No hay comunicacion con la PC,XM
+TF38,IC temperature NG,Temperatura NG del IC,XM
+TF39,Ethernet input NG,Entrada Ethernet mala,HANIL
+TF40,Keys data MAC/ULPK/Netflix  no written,Llaves MAC/ULPK/Netflix no grabadas,PD
+TF41,Can't write ULPK/MAC/SN data,No graba datos ULPK/MAC/SN,RD
+TF42,SN not delated in main repaired,SN no borrada de Main reparada,PD
+TF43,Different MAC in Wi-Fi board,Diferente MAC en placa WiFi,PD
+TF44,TV with MAC recorded SFIS,TV con MAC registrada SFIS,PD
+TF45,ULPK No Updated,No graba ULPK,
+TF46,NO NETFLIX connection,No se conecta a NETFLIX,PD
+TF47,Registro de Internet Activado,Registro de Internet Activado,
+TF48,No conexion de Wi-Fi,No Wi-Fi conection,QA
+TF49,Can not write SN into TV,No escribe el numero de serie en TV,MX INSP
+TF50,Can not obtain keys data from the TV,No se pueden obtener llaves de la TV,MX INSP
+TF51,Don't pass PROVISIONING test,No pasa prueba PROVISIONING,
+TF52,Don't pass IPTV test,No pasa prueba de IPTV,
+TF53,Don't pass PANEL INSPECTION test,No pasa prueba de panel inspection,
+TF54,TV turns OFF,TV se apaga,PD
+TF55,TV with different model written,TV con modelo diferente grabado,QA
+TF56,Light sensor NG,Light sensor NG,PD
+TG01,bezel distortion,Gabinete doblado,PD
+TG02,bezel crack,bezel quebrado,PD
+TG03,bezel dirty,bezel sucio,PD
+TG04,bezel dirty,bezel sucio,PD
+TG05,bezel impurity,suciedad en el gabinete,PD
+TG06,bezel impurity,suciedad en el gabinete,PD
+TG07,bezel scratch,gabinete rayado,PD
+TG08,bezel scratch,gabinete rayado,PD
+TG09,bezel burr,rebaba en el frame,PD
+TG10,bezel burr,rebaba en el frame,PD
+TG11,bezel GAP,abertura en el gabinete,PD
+TG12,bezel poor spay paint,Gabinete con poca pintura,PD
+TG13,bezel color difference,Gabinete diferente color,PD
+TG14,wrong bezel,gabinete equivocado,PD
+TG15,bezel mark,Marca en el gabinete,PD
+TG16,bezel mark,Marca en el gabinete,PD
+TG17,bezel shrink,gabinete reducido,PD
+TG18,bezek white mark,Marca blanca en el gabinete,PD
+TG19,bezek white mark,Marca blanca en el gabinete,PD
+TG20,bezek scracth mark,gabinete con marca rayada,PD
+TG21,bezek scracth mark,Marca blanca en el gabinete,PD
+TG22,bezel poor repair workmanship,Gabinete mal reparado,PD
+TG23,heat dispersion hole jam,boss tapado,PD
+TG24,Gap between front bezel and panel,Abertura entre Bezel y panel,PD
+TG25,fall between front bezel and back cover,escalon entre gabinete y back cover,PD
+TG26,foreign material between front bezel and back cover,material extraño entre gabinete y b/c,PD
+TG27,foreign material between front bezel and panel,material extraño entre gabinete y b/c,PD
+TG28,support clip break,clip support quebrado,PD
+TG29,support clip white mark,Clip soporte con marca blanca,PD
+TG30,support clip white mark,Clip soporte con marca blanca,PD
+TG31,support clip not plug into appointed position,clip suoporte no ensamblado,PD
+TG32,back cover clip exposed,Clip de back cover suelto,PD
+TG33,support dismatch,Soporte no coincide,PD
+TG34,abnormal noise when shake unit,ruido anormal cuando se mueve la TV,PD
+TG35,cowj back  cover break off,martillo jig apaga la tv,PD
+TG36,Foreing material in the panel,Basura en el Panel,PD
+TG37,back cover distortion,back cover doblado,PD
+TG38,Image distortion with cowj test,Imagen distorsionada al golpear con martillo jig,PD
+TG39,Back cover bad assembly,Back cover mal ensamblado,PD
+TG40,Missing service serial number label,Etiqueta de servicio con S/N ausente,PD
+TG41,Foreing material,Material Extraño,PD
+TG42,Wrong material,material equivocado,PD
+TG43,Back cover Dirty,Back cover sucio,PD
+TG44,Bezel Film protector damaged,Fleje protector dañado en bezel,PD
+TG45,Buble in the panel,burbuja en el panel,XM
+TG46,Bezel Protect film bad assembly,fleje de Proteccion en bezel mal ensamblado,PD
+TG47,IO bracker scratch,IO bracket rayado,PE
+TG48,Buble on rating label,Burbuja en etiqueta rating,PD
+TG49,Gap between Bezel y Back cover,Abertura entre Bezel y Back cover,PD
+TH01,Miss power cord,Cable de AC ausente,PD
+TH02,2 o more power cords,2 o mas cables de AC,PD
+TH03,Wrong power cord,Power cord equivocado,PD
+TH04,different power cord,Diferente cable de AC,PD
+TH05,Miss manual,Manual ausente,PD
+TH06,2 o more manuals,2 o mas manuales,PD
+TH07,Wrong manual,Manual equivocado,PD
+TH08,manual poor print,Impresion del manual pobre,PD
+TH09,Miss certificate card,Tarjeta de certificado ausente,PD
+TH10,2 o more guarantee cards,2 o mas tarjetas de garantia,PD
+TH11,Wrong warranty card,Tarjeta de garantia equivocada,PD
+TH12,Miss circuit diagram,Diagrama de circuito ausente,PD
+TH13,Carton dirty,Caja sucia,PD
+TH14,Carton damaged,Caja dañada,PD
+TH15,carton fold corner,Esquina del carton doblada,PD
+TH16,carton poor print,Impresion pobre de la caja,PD
+TH17,wrong carton,caja equivocada,PD
+TH18,carton wrong mark,marca equivocada en la caja,PD
+TH19,unit S/N No. not accordance with carton,Serie de TV diferente a la caja,PD
+TH20,carton bend,caja doblada,PD
+TH21,carton not seal,No tape en la caja,PD
+TH22,foreign material in carton,Material extraño en la caja,PD
+TH23,poor seal carton,mal sellado de la caja,PD
+TH24,PE bag damage,bolsa dañada,PD
+TH25,wrong PE bag,bolsa equivocada,PD
+TH29,ID poor print,ID impresion pobre,PD
+TH30,miss ID,ID ausente,PD
+TH31,wrong EPS cushion,EPS cushions equivocados,PD
+TH32,EPS cushion damaged,EPE cushion dañados,PD
+TH33,EPS cushion dirty,EPS cushions sucios,PD
+TH34,EPS cushion water vapour,EPS cushion con agua de vapor,PD
+TH35,put unit in reverse in carton,TV al reves en la caja,PD
+TH36,model mix,Modelo mezclado,PD
+TH37,tape defect,tape defectuoso,PD
+TH38,protect film dirty,Hoja de proteccion sucio,PD
+TH39,protect film tilt,Hoja de proteccion movida,PD
+TH40,protect film fold,Hoja de proteccion doblada,PD
+TH41,remote font no printing,letras en el control no impresas,PD
+TH42,miss remote  battery,baterias ausentes,PD
+TH43,2 o more remote  battery,2 o mas baterias,PD
+TH44,Missing Remote control,Control remoto ausente,PD
+TH45,2 o more remote controls,2 o mas controles remotos,PD
+TH46,Top Defective cushion,Top Cushion defectuoso,PD
+TH47,Bottom defective cushion,Bottom cushion defectuoso,PD
+TH48,Don't read Carton label,No lee codigo de etiqueta de carton,PE
+TH49,2 o more AC cables,2 o mas cables de AC,PD
+TH50,Accesories damaged,Accesories damaged,PD
+TH51,2 o more screw bag,2 o more screw bag,PD
+TH52,Missing cushion,Cushion ausente,PD
+TH53,Missing screw bag,Missing screw bag,PD
+TH54,Missing stand base plastic protector,Plastico protector ausente de stand base,PD
+TH55,Carton box without pad lock,Seguros de caja ausentes,PD
+TH56,Incorrect Remote control,Control remoto incorrecto,PD
+TH57,Wrong Carton box,Caja equivocada,PD
+TH58,Pad locks dameaged on carton box,Seguros dañados en la caja,PD
+TH59,Pad locks open on carton box,Seguros de la caja abiertos,PD
+TH60,Not complement manual page,Complemento de manual ausente,PD
+TH61,2 or more cloths,2 o mas toallitas,PD
+TH62,Folder damaged for manual,Folder dañado para manual,PD
+TH63,Missing cloth,Toallita ausente,PD
+TH64,Wrong tape to seal carton box,Tape equivocado para cerrar la caja.,PD
+TH65,PE bag tape bad assembly,Tape de la PE bag mal ensamblado,PD
+TH66,PE bag tape bad position,Tape de PE bag en mala posicion,PD
+TH67,2 o more DVI cables,2 o mas cables DVI,PD
+TH68,Accesories out of the PE bag,Accesorios fuera de la bolsa.,PD
+TH69,2 o More Stand base,2 o mas bases,PD
+TI01,WB checking NG,Revision WB NG,
+TI02,VGA EDID NG,VGA EDID NG,
+TI03,DVI EDID NG,DVI EDID NG,
+TI04,HDMI EDID NG,HDMI EDID NG,
+TI05,LV NG,LV NG,
+TI06,HDCP KEY NG,HDCP KEY NG,
+TI07,Response time NG,Tiempo de Respuesta NG,
+TI08,Miss screw,Tornillo ausente,PD
+TI09,Wrong screw,Tornillo equivocado,PD
+TI10,Screw with torque NG,Tornillo con mal torque,PD
+TI11,Screw thread damage,Tornillo barrido,PD
+TI12,Main frame defect,Defecto del frame,PD
+TI13,Back cover defect,Back cover defectuoso,PD
+TI14,S-video distortion,distorsion en S-Video,PD
+TI15,D connector distortion,Distorsion del conector D,PD
+TIN01,Main Baord not match,Main Baord not match,W/H
+TIN02,Pe bag damage,Pe bag damage,W/H
+TIN03,Screw Loose M/B metal,Screw Loose M/B metal,W/H
+TIN05,Box damaged,Box damaged,W/H
+TIN06,Connector housing defective CN606,Connector housing defective CN606,W/H
+TIN07,Metal boss stripped,Metal boss stripped,W/H
+TIN08,Wire Campler not Assy,Wire Campler not Assy,W/H
+TIN09,Aluminum Tape not assy,Aluminum Tape not assy,W/H
+TIN10,Metal M/B Hole Stripped,Metal M/B Hole Stripped,W/H
+TIN100,Incorrect wire dressing,Amarre de cableado mal hecho,PD
+TIN101,Ferrite damaged,Ferrita dañada,PD
+TIN102,HDMI label wrong assy,Etiqueta de HDMI mal ensamblada,PD
+TIN103,EPE cushions bad assembly,Cushions mal ensamblados,PD
+TIN104,hinge bad assembly,mal ensamble de hinge,pd
+TIN105,A/V inputs label bad assembly,Mal ensamble de la etiqueta de entradas de Audio y Video,PD
+TIN106,NOM LABEL MISSING,ETIQUETA DE NOM AUSENTE,PD
+TIN107,TV WITH NOM LABEL,TV CON ETIQUETA NOM,PD
+TIN108,PART MISSING,PARTE AUSENTE,FQ
+TIN109,Speaker damaged,Bocina dañada,FQ
+TIN11,Stripped boss bezel on back cover,Stripped boss bezel on back cover,W/H
+TIN110,Manufacturing date missing on rating label,Manufacturing date missing on rating label,
+TIN111,WiFi PCB damaged,Placa WiFi dañada,XM
+TIN112,Harness  missing,Cable ausente,XM
+TIN113,rating label missing,Etiqueta de rating ausente,XM
+TIN114,Shipping label missing,Etiqueta de shipping ausente,XM
+TIN115,Speakers bad assy (inverted),Bocinas mal ensambladas (invertidas),PD
+TIN116,AC CABLE BAD ASSY,CABLE DE AC MAL ENSAMBLADO,PD
+TIN117,SIDE LABEL MISSING,SIDE LABEL MISSING,PE
+TIN118,PLASTIC LED COVER MISSING,PLASTIC LED COVER MISSING,PE
+TIN119,Panel Boss broken,Boss de panel quebrado,XM
+TIN12,Stripped boss on main metal,Stripped boss on main metal,W/H
+TIN120,Wrong I/O metal bracket,Metal I/O bracket equivocado,PD
+TIN121,B/C hole for wall mount obstructed,Agujero de wall mount en B/C obstruido,PD
+TIN122,METAL DEFECTIVE,METAL DEFECTUOSO,PD
+TIN123,Defective Hinge,Hinge defectuoso,PD
+TIN124,Missing information on Rating label,Falta informacion en la etiqueta rating,PD
+TIN125,OPEN CELL BAD ASSEMBLY,MAL ENSAMBLE DE CELDA,PD
+TIN126,IR LENS BAD ASSEMBLY,LENTE IR MAL ENSAMBLADO,PD
+TIN13,Ferrite core CNF1 not assy,Ferrite core CNF1 not assy,W/H
+TIN15,Cable Tie Misssing,Cable Tie Misssing,W/H
+TIN16,Main board quantity shortage,Main board quantity shortage,W/H
+TIN17,Back cover damaged,Back cover damaged,W/H
+TIN18,Bezel Boss Broken,Bezel Boss Broken,W/H
+TIN19,Black Tape M/B peeled off,Black Tape M/B peeled off,W/H
+TIN20,Boss hinge  stripped,Boss hinge  stripped,W/H
+TIN21,Center cushion missing,Center cushion missing,W/H
+TIN22,Exagonal screw missing,Exagonal screw missing,W/H
+TIN23,Foreing material,Foreing material,W/H
+TIN25,Himeron Tape  Position NG,Himeron Tape  Position NG,W/H
+TIN26,Missing Screw Hinge,Missing Screw Hinge,W/H
+TIN27,Rusty Material,Rusty Material,W/H
+TIN28,Wire Speaker connector to tight.,Wire Speaker connector to tight.,W/H
+TIN29,Wrong shipping Tag Label(No Match),Wrong shipping Tag Label(No Match),W/H
+TIN30,Back Cover Dirty,Back Cover Dirty,W/H
+TIN31,Bezel boss Striping,Bezel boss Striping,W/H
+TIN32,Clip of hinge bended,Clip of hinge bended,W/H
+TIN33,Dective back cover,Dective back cover,W/H
+TIN35,Losse screw on M/B,Losse screw on M/B,W/H
+TIN36,Loose screw on base,Loose screw on base,W/H
+TIN37,Loose screw on speaker,Loose screw on speaker,W/H
+TIN38,Main Board Capacitor pin Damaged,Main Board Capacitor pin Damaged,W/H
+TIN39,Boss Missing,Boss Missing,PD
+TIN50,Metal M/B bending,Metal M/B bending,W/H
+TIN51,Rating Label Missing,Rating Label Missing,W/H
+TIN52,Screw Missing,Screw Missing,W/H
+TIN53,Screw inside TV (foreingMaterial),Screw inside TV (foreingMaterial),W/H
+TIN55,Solder bridge on main,Solder bridge on main,W/H
+TIN56,wire clamp missing,wire clamp missing,W/H
+TIN57,Wrong screw,Wrong screw,W/H
+TIN58,Wrong serial number,Wrong serial number,W/H
+TIN59,Glue in panel,Glue in panel,W/H
+TIN60,Solder Excess,Solder Excess,W/H
+TIN61,Damaged bag stand base,Damaged bag stand base,W/H
+TIN62,BAD POSITION METAL ITTA15T0559-101/8,BAD POSITION METAL ITTA15T0559-101/8,W/H
+TIN63,DAMAGE BEZEL,DAMAGE BEZEL,W/H
+TIN65,GLUE SUPPORT BAD ASSEMBLED,GLUE SUPPORT BAD ASSEMBLED,W/H
+TIN66,HINGE DAMAGE,HINGE DAMAGE,W/H
+TIN67,BASE DAMAGED,BASE DAMAGED,W/H
+TIN68,BUTTON CUSHION DAMAGED,BUTTON CUSHION DAMAGED,W/H
+TIN69,Cable damaged CN403,Cable damaged CN403,PD
+TIN70,Groung cable missing,Groung cable missing,PD
+TIN71,NO POWER,NO POWER,PD
+TIN72,Main board damaged,Main board dañada,PD
+TIN73,Missing hinge,Hinge ausente,PD
+TIN74,MISSING BOSS,BOSS AUSENTE,PD
+TIN75,Connector damaged,conector dañado,PD
+TIN76,Cable damaged,Cable dañado,PD
+TIN77,Cooper pattern broken,Pista rota on main board,PD
+TIN78,Component damaged,componente dañado,PD
+TIN79,Missing Rubber foot stand,Missing Rubber foot stand,XM
+TIN80,Gasket bad assembly,Gasket mal ensamblado,PD
+TIN81,Rubber support missing,Goma soporte ausente,PD
+TIN82,Rubber pin missing,Pin de goma ausente,PD
+TIN83,Missing component,componente ausente,PD
+TIN84,Missing AC cable tie,Missing AC cable tie,
+TIN85,Wrong hinge,Hinge equivocado,PD
+TIN86,AC socket bad assembly,Entrada de  AC mal ensamblada,PD
+TIN87,Heat sink bad assembly,Disipador mal ensamblado,PD
+TIN88,Pin bended on connector,Pin doblado en conector,PD
+TIN89,Can't screw main board (hole out spec),No se puede atornillar main (orificio fuera de espec),RD
+TIN90,Boss without hole for screw,Boss sin orificio para tornillo,RD
+TIN91,Neck cover broken,Cuello del hinge quebrado,PD
+TIN92,I/O BRACKET MISSING,METAL I/O AUSENTE,PD
+TIN93,IR LENS MISSING,IR LENS MISSING,PD
+TIN94,IO BRACKET BAD ASSEMBLY,IO METAL bad assembly,PD
+TIN95,Stripped,Stripped,PD
+TIN96,Back cover bending on side inputs,Back cover doblado en las entradas de lado,XM
+TIN97,Connector bad assembly,Connector bad assembly,PD
+TIN98,Scratch panel,Panel Rayado,PD
+TIN99,Broken panel,Panel quebrado,PD
+TJ01,Logo raw material defect,Logo material defectuoso,PD
+TJ02,wrong logo,Logo equivocado,PD
+TJ03,Miss logo,Logo ausente,PD
+TJ04,Logo scratch,Logo rayado,PD
+TJ05,Logo dirty,Logo sucio,PD
+TJ06,Logo bad assembly,Logo mal ensamblado,PD
+TJ07,LOGO Don't turn ON,No enciende LOGO,PD
+TJ08,Logo light white distortion,Distorsion de luz en logo,PD
+TJ09,LOGO without paint,LOGO despintado,PD
+TJ10,Logo protector missing,Protector de Logo ausente,PD
+TL01,Buble in the led,Burbuja en el led,
+TL02,led mal ensamblado,Led bad assembly,
+TL03,Led crack,Led quebrado,
+TL04,Wrong Led,Led equivocado,
+TL05,led Dirty,Led sucio,
+TL06,Intermitent Led,Led intermitente,
+TL07,led scratch,Led rayado,
+TL08,Led don't turn ON,No enciende LED,PD
+TL09,LED BOARD DAMAGED,PLACA DE LED DAÑADA,PD
+TL10,LED don't turn OFF,No se apaga el LED,PD
+TM01,Defect component  back cover,Back Cover con defecto,
+TM02,Bezel damaged,Bezel dañado,
+TM03,Defect component Powerboard,Powerboard con defecto,
+TM04,Defect component Mainboard,MainBoard con defecto,
+TM05,Defect component Frame,Frame con defecto,
+TM06,Defect component LCD panel,Panel LCD con defecto,
+TM07,Defect component Base,Base con defecto,
+TM08,Carton box defective,Carton Box con defecto,
+TM09,Defect component EPS,EPS con defecto,
+TM10,Defect component PE bag,Bolsa PE con defecto,
+TM11,Broken thread,Rosca dañada,
+TM12,Missing screw on B/C,Tornillo ausente en back cover,
+TM13,Foreing material,Material extraño,
+TM14,Broken cable socket,Conector roto,
+TM15,Broken wire,Cable roto,
+TM16,Broken LED,LED dañado,
+TM17,Broken Keyboard,Boton dañado,
+TM18,Broken label,Etiqueta dañada,
+TM19,No label,Falta etiqueta,
+TM20,Loose screw,Tornillo flojo,
+TM21,Tapes wrong assembly,Tapes mal ensamblados,
+TM22,Wrong screw,Tornillo equivocado,
+TM23,Wire dressing wrong assembly,Cable mal ensamblado,
+TM24,STEP BETWEEN ASSEMBLY PANELS,Escalon entre partes,
+TM25,Missing tapes,Tapes ausentes,
+TM26,Scratch,Rayadura,
+TM27,LCD panel stain,Mancha en el LCD panel.,PD
+TM28,wrong label,Etiqueta equivocada,PD
+TM29,label poor stickiness,Pegamento de etiqueta insuficiente,PD
+TM30,Label tilt,Mala posicion de la etiqueta,PD
+TM31,speaker grill damaged,Speaker grill dañado,PD
+TM32,Speaker Deco damaged,speaker deco  dañado,PD
+TM33,Speaker DECO broken,Speaker DECO quebrado,PD
+TM34,Rating label bad assembled,"Etiqueta ""Rating"" mal ensamblada",PD
+TM35,CVBS LABEL WRONG ASSY,ETIQUETA DE CVBS MAL ENSAMBLADA,PD
+TM36,PLASTIC COVER OF HINGE MISSING,CUBIERTA DE PLASTICO DEL HINGE AUSENTE,PD
+TM37,Finger prints on panel (Dirty),Huellas de dedos en el panel (Sucio),
+TM38,Speaker DECO bad assembly,DECO mal ensamblado,XM
+TM39,Thank you card bad assembly,Thank you card mal ensamblada,
+TM40,Wrong panel,Panel equivocado,
+TM41,Wrong serial number,Wrong serial number,PD
+TM42,Wrong SERVICE label,Etiqueta SERVICE equivocada,QA
+TP01,Broken VGA socket,Terminal VGA dañada,
+TP02,Broken DVI socket,Terminal DVI dañada,
+TP03,Broken HDMI socket,Terminal HDMI dañada,
+TP04,Broken S-video socket,Terminal S-Video dañada,
+TP05,Broken SPDIF socket,Terminal SPDIF dañada,
+TP06,Broken AV socket,Terminal AV dañada,
+TP07,Broken Component socket,Terminal Componente dañada,
+TP08,Broken PC audio jack socket,Terminal PC Audio dañada,
+TP09,Broken external speaker socket,Terminal Bocina dañada,
+TP10,Broken RS232 socket,Terminal RS232 dañada,
+TP11,RF input damaged,Terminal RF dañada,
+TP12,S-video  port distortion,Distorsion en s-video,
+TP13,D conector distortion,Distortion en el conector D,
+TP14,Broken POWER SOURCE socket,Terminal AC dañada,
+TP15,Broken power out socket,Conector AC dañado,
+TP16,Broken USB socket,Terminal USB dañada,PD
+TP18,Missing packing parts,Partes de empaque ausentes.,PD
+TP19,Broken headphone input,entrada de audifonos quebrada,PD
+TP20,Audio input damaged,Entrada de audio dañada,PD
+TP21,Panel broken,Panel quebrado,PD
+TP22,wrong HDMI connector,Connector HDMI equivocado,PD
+TP23,A/V Inputs label defective,Etiqueta de entradas de A/V defectuosa,PD
+TP24,Defective VGA connector,Conector VGA defectuoso,PD
+TP25,USB input blocked,Entrada de USB bloqueada,PD
+TP26,Control panel broken,control panel quebrado,PD
+TP27,Glue on panel,Goma en el panel,PD
+TP28,Headphone input NG,Entrada de audifonos NG,PD
+TS01,SFIS missing scan,No se escaneo por SFIS,IT
+TT01,DDC writing NG,Escritura DDC NG,PE
+TT02,HDCP KEY writing NG,Escritura HDCP Key NG,RD
+TT03,ADC adjust NG,Ajuste ADC NG,
+TT04,Don't adjust WB,No ajusta WB,
+TT05,BU adjust NG,Ajuste BU NG,
+TT06,GAMA adjust NG,Ajuste GAMMA NG,
+TT07,HIPOT test NG,Prueba Hipot NG,PD
+TT08,Power consumption Test NG,Prueba de consumo de potencia NG,PD
+TT09,DDC reading NG,Lectura DDC NG,PD
+TT10,Ground bond test NG,Prueba de tierra NG,ASSY MX
+TT11,TV short circuit,Corto en la TV,PD
+TT12,TV can't upgrade firmware,TV no actualiza el firmware,RD
+TT13,Energy star don't compliand,no cumple con energy star,XM
+TT14,Don't detect WiFi signal,No detecta señal de WiFi,XM
+TT15,V-COM NG,V-COM NG,PD
+TT16,Power saving test NG,Prueba de ahorro de energia NG,PD
+TT21,FQC test fail (No DSN label),FQC test fail (No DSN label),PD
+TT22,NO TV burning,Falta calentamiento en la TV,MX inspect
