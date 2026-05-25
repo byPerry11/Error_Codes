@@ -1,2 +1,1 @@
-paresear.py
-errorcode.csv
+Nothing should be ignored in this case, as only a documentation file (.md) was added without any build artifacts, dependencies, or temporary files.
