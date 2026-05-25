@@ -167,21 +167,21 @@ TD05,DVI mode no display,Modo DVI sin imagen,PD
 TD06,HDMI 1 mode no display,Modo HDMI 1 sin imagen,PD
 TD07,S-video no display,Modo S-Video sin imagen,PD
 TD11,Composite video no image,Modo Compuesto sin imagen,PD
-TD12,SCard CVBS no display,Modo CVBS/SCART sin imagen,
-TD13,Component no display,Modo Componente sin imagen,
-TD14,ATV no picture,Modo ATV sin imagen,
-TD15,DTV no picture,Modo DTV sin imagen,
-TD16,V-chip TV no picture,V-chip ausente,
-TD17,Image abnormal of VGA mode,Imagen anormal modo VGA,
-TD18,Image abnormal of DVI mode,Imagen anormal modo DVI,
-TD19,Image abnormal of HDMI,Imagen anormal modo HDMI,
-TD20,Image abnormal of S-video,Imagen anormal modoS-Video,
-TD22,Image abnormal of Composite video,Imagen anormal modo Composite Video,
-TD23,Image abnormal of Component,Imagen anormal modo Componente,
+TD12,SCard CVBS no display,Modo CVBS/SCART sin imagen,PE
+TD13,Component no display,Modo Componente sin imagen,PE
+TD14,ATV no picture,Modo ATV sin imagen,PE
+TD15,DTV no picture,Modo DTV sin imagen,PE
+TD16,V-chip TV no picture,V-chip ausente,PE
+TD17,Image abnormal of VGA mode,Imagen anormal modo VGA,PE
+TD18,Image abnormal of DVI mode,Imagen anormal modo DVI,PE
+TD19,Image abnormal of HDMI,Imagen anormal modo HDMI,PE
+TD20,Image abnormal of S-video,Imagen anormal modoS-Video,PE
+TD22,Image abnormal of Composite video,Imagen anormal modo Composite Video,PE
+TD23,Image abnormal of Component,Imagen anormal modo Componente,PE
 TD24,Image Distortion,Imagen distorsionada,PD
 TD25,White pixels on the screen,Pixeles blancos brillosos,PD
 TD26,Image with different color,Imagen diferente color,PD
-TD27,Image abnormal all inputs,Imagen anormal todos los modos,
+TD27,Image abnormal all inputs,Imagen anormal todos los modos,PE
 TD28,Mura en el panel,Panel with Mura,PD
 TD29,Vertical line on image,Linea Vertical  en imagen,PD
 TD30,Horizontal line on image,Linea horizontal en imagen,PD
@@ -206,7 +206,20 @@ TD48,Bubles into the cell,Burbujas dentro de la celda,XM
 TD49,Foreing material in Open cell,Material extraño en la celda,PD
 TD50,BC light leakege,Fuga de luz en BC,PD
 TD51,Image V Block off,Vertical block en imagen,PD
-TE01,Base mal ensamblada,Base mal ensamblada,
+TD52,NO ACK,No comunication,PD
+TD53,IR IN NG,Entrada IR mala,PD
+TD54,USB3.0 NG,Entrada USB3.0 mala,PD
+TD55,Audio buzz NG,Audio buzz NG,PD
+TD56,Speaker no sound,Mo hay audio en las bocinas,PD
+TD57,HDMI-CEC NG,No funciona HDMI-CEC,PD
+TD58,Demura-ON no function,No funciona Demura-ON,PD
+TD59,Sony-PSW version NG,Sony-PSW version NG,PD
+TD60,Sony-FSW version NG,Sony-FSW version NG,PD
+TD61,Wrong P-Code,Wrong P-Code,PD
+TD62,WIFI MAC NG,WIFI MAC NG,PD
+TD63,BT MAC NG,BT MAC NG,PE
+TD64,RKG file NG,RKG file NG,PE
+TE01,Base mal ensamblada,Base mal ensamblada,PE
 TE02,Stand base missing,Base ausente,PD
 TE03,Wrong base,Base equivocada,PD
 TE04,Base clip bent,Clip de la base doblado,PD
@@ -222,24 +235,24 @@ TE13,PE bag bad closed on the TV,Bolsa mal cerrada en la TV,PD
 TE14,2 or more HINGE,2 o mas HINGE,PD
 TE15,Stand base bad assembly,Mal ensamble de stand base,XM
 TE16,STAND BASE CAN NOT ASSEMBLY,NO ENSAMBLA BASE,PD
-TF01,No power,No enciende,
-TF02,Keyboard no function,Control panel no funcionan botones,
-TF03,Remote control no function,Control Remoto no funciona,
-TF04,Closed caption no function,no funciona closed caption,
-TF05,OSD menu no display,Menu OSD ausente,
-TF06,OSD abnormal functions,Funcionamiente OSD anormal,
-TF09,Wrong SW version/FACTORY data,Version SW/Fabrica equivocada,
-TF10,Initialization NG,Inicializacion NG,
-TF11,Microphone does not receive input,Salida para Audifono no funciona,
-TF12,V-chip no display,No aparece V-Chip,
-TF13,RS232 communication NG,Comunicacion RS232 NG,
-TF14,Dimming sensor no function,Sensor Luz No funciona,
-TF17,External speakers test fail,Falla de bocinas externas,
-TF21,USB Port Can't read data,Puerto  USB no lee datos,
-TF22,No OSD abnormal,OSD ausente,
-TF24,OSD S/N Wrong,Num Serie en OSD equivocado,
+TF01,No power,No enciende,PE
+TF02,Keyboard no function,Control panel no funcionan botones,PE
+TF03,Remote control no function,Control Remoto no funciona,PE
+TF04,Closed caption no function,no funciona closed caption,PE
+TF05,OSD menu no display,Menu OSD ausente,PE
+TF06,OSD abnormal functions,Funcionamiente OSD anormal,PE
+TF09,Wrong SW version/FACTORY data,Version SW/Fabrica equivocada,PE
+TF10,Initialization NG,Inicializacion NG,PE
+TF11,Microphone does not receive input,Salida para Audifono no funciona,PE
+TF12,V-chip no display,No aparece V-Chip,PE
+TF13,RS232 communication NG,Comunicacion RS232 NG,PE
+TF14,Dimming sensor no function,Sensor Luz No funciona,PE
+TF17,External speakers test fail,Falla de bocinas externas,PE
+TF21,USB Port Can't read data,Puerto  USB no lee datos,PE
+TF22,No OSD abnormal,OSD ausente,PE
+TF24,OSD S/N Wrong,Num Serie en OSD equivocado,PE
 TF25,Shut down,Se apaga,PD
-TF26,Output voltage abnormall,Voltaje Salida anormal,
+TF26,Output voltage abnormall,Voltaje Salida anormal,PE
 TF27,No factory reset,No factory reset,RD
 TF28,Firmware NG,Firmware NG,RD
 TF29,Control panel sensors don't work,Sensores del control panel no funcionan,PD
@@ -258,18 +271,19 @@ TF41,Can't write ULPK/MAC/SN data,No graba datos ULPK/MAC/SN,RD
 TF42,SN not delated in main repaired,SN no borrada de Main reparada,PD
 TF43,Different MAC in Wi-Fi board,Diferente MAC en placa WiFi,PD
 TF44,TV with MAC recorded SFIS,TV con MAC registrada SFIS,PD
-TF45,ULPK No Updated,No graba ULPK,
+TF45,ULPK No Updated,No graba ULPK,PE
 TF46,NO NETFLIX connection,No se conecta a NETFLIX,PD
-TF47,Registro de Internet Activado,Registro de Internet Activado,
+TF47,Registro de Internet Activado,Registro de Internet Activado,PE
 TF48,No conexion de Wi-Fi,No Wi-Fi conection,QA
 TF49,Can not write SN into TV,No escribe el numero de serie en TV,MX INSP
 TF50,Can not obtain keys data from the TV,No se pueden obtener llaves de la TV,MX INSP
-TF51,Don't pass PROVISIONING test,No pasa prueba PROVISIONING,
-TF52,Don't pass IPTV test,No pasa prueba de IPTV,
-TF53,Don't pass PANEL INSPECTION test,No pasa prueba de panel inspection,
+TF51,Don't pass PROVISIONING test,No pasa prueba PROVISIONING,PE
+TF52,Don't pass IPTV test,No pasa prueba de IPTV,PE
+TF53,Don't pass PANEL INSPECTION test,No pasa prueba de panel inspection,PE
 TF54,TV turns OFF,TV se apaga,PD
 TF55,TV with different model written,TV con modelo diferente grabado,QA
 TF56,Light sensor NG,Light sensor NG,PD
+TF57,eARC/ARC TEST FAIL,FALLA PRUEBA  eARC/ARC,PD
 TG01,bezel distortion,Gabinete doblado,PD
 TG02,bezel crack,bezel quebrado,PD
 TG03,bezel dirty,bezel sucio,PD
@@ -385,13 +399,13 @@ TH66,PE bag tape bad position,Tape de PE bag en mala posicion,PD
 TH67,2 o more DVI cables,2 o mas cables DVI,PD
 TH68,Accesories out of the PE bag,Accesorios fuera de la bolsa.,PD
 TH69,2 o More Stand base,2 o mas bases,PD
-TI01,WB checking NG,Revision WB NG,
-TI02,VGA EDID NG,VGA EDID NG,
-TI03,DVI EDID NG,DVI EDID NG,
-TI04,HDMI EDID NG,HDMI EDID NG,
-TI05,LV NG,LV NG,
-TI06,HDCP KEY NG,HDCP KEY NG,
-TI07,Response time NG,Tiempo de Respuesta NG,
+TI01,WB checking NG,Revision WB NG,PE
+TI02,VGA EDID NG,VGA EDID NG,PE
+TI03,DVI EDID NG,DVI EDID NG,PE
+TI04,HDMI EDID NG,HDMI EDID NG,PE
+TI05,LV NG,LV NG,PE
+TI06,HDCP KEY NG,HDCP KEY NG,PE
+TI07,Response time NG,Tiempo de Respuesta NG,PE
 TI08,Miss screw,Tornillo ausente,PD
 TI09,Wrong screw,Tornillo equivocado,PD
 TI10,Screw with torque NG,Tornillo con mal torque,PD
@@ -420,7 +434,7 @@ TIN107,TV WITH NOM LABEL,TV CON ETIQUETA NOM,PD
 TIN108,PART MISSING,PARTE AUSENTE,FQ
 TIN109,Speaker damaged,Bocina dañada,FQ
 TIN11,Stripped boss bezel on back cover,Stripped boss bezel on back cover,W/H
-TIN110,Manufacturing date missing on rating label,Manufacturing date missing on rating label,
+TIN110,Manufacturing date missing on rating label,Manufacturing date missing on rating label,PE
 TIN111,WiFi PCB damaged,Placa WiFi dañada,XM
 TIN112,Harness  missing,Cable ausente,XM
 TIN113,rating label missing,Etiqueta de rating ausente,XM
@@ -494,7 +508,7 @@ TIN80,Gasket bad assembly,Gasket mal ensamblado,PD
 TIN81,Rubber support missing,Goma soporte ausente,PD
 TIN82,Rubber pin missing,Pin de goma ausente,PD
 TIN83,Missing component,componente ausente,PD
-TIN84,Missing AC cable tie,Missing AC cable tie,
+TIN84,Missing AC cable tie,Missing AC cable tie,PE
 TIN85,Wrong hinge,Hinge equivocado,PD
 TIN86,AC socket bad assembly,Entrada de  AC mal ensamblada,PD
 TIN87,Heat sink bad assembly,Disipador mal ensamblado,PD
@@ -520,39 +534,39 @@ TJ07,LOGO Don't turn ON,No enciende LOGO,PD
 TJ08,Logo light white distortion,Distorsion de luz en logo,PD
 TJ09,LOGO without paint,LOGO despintado,PD
 TJ10,Logo protector missing,Protector de Logo ausente,PD
-TL01,Buble in the led,Burbuja en el led,
-TL02,led mal ensamblado,Led bad assembly,
-TL03,Led crack,Led quebrado,
-TL04,Wrong Led,Led equivocado,
-TL05,led Dirty,Led sucio,
-TL06,Intermitent Led,Led intermitente,
-TL07,led scratch,Led rayado,
+TL01,Buble in the led,Burbuja en el led,PE
+TL02,led mal ensamblado,Led bad assembly,PE
+TL03,Led crack,Led quebrado,PE
+TL04,Wrong Led,Led equivocado,PE
+TL05,led Dirty,Led sucio,PE
+TL06,Intermitent Led,Led intermitente,PE
+TL07,led scratch,Led rayado,PE
 TL08,Led don't turn ON,No enciende LED,PD
 TL09,LED BOARD DAMAGED,PLACA DE LED DAÑADA,PD
 TL10,LED don't turn OFF,No se apaga el LED,PD
-TM01,Defect component  back cover,Back Cover con defecto,
-TM02,Bezel damaged,Bezel dañado,
-TM03,Defect component Powerboard,Powerboard con defecto,
-TM04,Defect component Mainboard,MainBoard con defecto,
-TM05,Defect component Frame,Frame con defecto,
-TM06,Defect component LCD panel,Panel LCD con defecto,
-TM07,Defect component Base,Base con defecto,
-TM08,Carton box defective,Carton Box con defecto,
-TM09,Defect component EPS,EPS con defecto,
-TM10,Defect component PE bag,Bolsa PE con defecto,
-TM11,Broken thread,Rosca dañada,
-TM12,Missing screw on B/C,Tornillo ausente en back cover,
-TM13,Foreing material,Material extraño,
-TM14,Broken cable socket,Conector roto,
-TM15,Broken wire,Cable roto,
-TM16,Broken LED,LED dañado,
-TM17,Broken Keyboard,Boton dañado,
-TM18,Broken label,Etiqueta dañada,
-TM19,No label,Falta etiqueta,
+TM01,Defect component  back cover,Back Cover con defecto,PE
+TM02,Bezel damaged,Bezel dañado,PE
+TM03,Defect component Powerboard,Powerboard con defecto,PE
+TM04,Defect component Mainboard,MainBoard con defecto,PE
+TM05,Defect component Frame,Frame con defecto,PE
+TM06,Defect component LCD panel,Panel LCD con defecto,PE
+TM07,Defect component Base,Base con defecto,PE
+TM08,Carton box defective,Carton Box con defecto,PE
+TM09,Defect component EPS,EPS con defecto,PE
+TM10,Defect component PE bag,Bolsa PE con defecto,PE
+TM11,Broken thread,Rosca dañada,PE
+TM12,Missing screw on B/C,Tornillo ausente en back cover,PE
+TM13,Foreing material,Material extraño,PE
+TM14,Broken cable socket,Conector roto,PE
+TM15,Broken wire,Cable roto,PE
+TM16,Broken LED,LED dañado,PE
+TM17,Broken Keyboard,Boton dañado,PE
+TM18,Broken label,Etiqueta dañada,PE
+TM19,No label,Falta etiqueta,PE
 TM20,Loose screw,Tornillo flojo,
 TM21,Tapes wrong assembly,Tapes mal ensamblados,
 TM22,Wrong screw,Tornillo equivocado,
-TM23,Wire dressing wrong assembly,Cable mal ensamblado,
+TM23,Wire dressing wrong assembly,Cable mal ensamblado,pe
 TM24,STEP BETWEEN ASSEMBLY PANELS,Escalon entre partes,
 TM25,Missing tapes,Tapes ausentes,
 TM26,Scratch,Rayadura,
@@ -566,27 +580,27 @@ TM33,Speaker DECO broken,Speaker DECO quebrado,PD
 TM34,Rating label bad assembled,"Etiqueta ""Rating"" mal ensamblada",PD
 TM35,CVBS LABEL WRONG ASSY,ETIQUETA DE CVBS MAL ENSAMBLADA,PD
 TM36,PLASTIC COVER OF HINGE MISSING,CUBIERTA DE PLASTICO DEL HINGE AUSENTE,PD
-TM37,Finger prints on panel (Dirty),Huellas de dedos en el panel (Sucio),
+TM37,Finger prints on panel (Dirty),Huellas de dedos en el panel (Sucio),PE
 TM38,Speaker DECO bad assembly,DECO mal ensamblado,XM
-TM39,Thank you card bad assembly,Thank you card mal ensamblada,
-TM40,Wrong panel,Panel equivocado,
+TM39,Thank you card bad assembly,Thank you card mal ensamblada,PE
+TM40,Wrong panel,Panel equivocado,PE
 TM41,Wrong serial number,Wrong serial number,PD
 TM42,Wrong SERVICE label,Etiqueta SERVICE equivocada,QA
-TP01,Broken VGA socket,Terminal VGA dañada,
-TP02,Broken DVI socket,Terminal DVI dañada,
-TP03,Broken HDMI socket,Terminal HDMI dañada,
-TP04,Broken S-video socket,Terminal S-Video dañada,
-TP05,Broken SPDIF socket,Terminal SPDIF dañada,
-TP06,Broken AV socket,Terminal AV dañada,
-TP07,Broken Component socket,Terminal Componente dañada,
-TP08,Broken PC audio jack socket,Terminal PC Audio dañada,
-TP09,Broken external speaker socket,Terminal Bocina dañada,
-TP10,Broken RS232 socket,Terminal RS232 dañada,
-TP11,RF input damaged,Terminal RF dañada,
-TP12,S-video  port distortion,Distorsion en s-video,
-TP13,D conector distortion,Distortion en el conector D,
-TP14,Broken POWER SOURCE socket,Terminal AC dañada,
-TP15,Broken power out socket,Conector AC dañado,
+TP01,Broken VGA socket,Terminal VGA dañada,PE
+TP02,Broken DVI socket,Terminal DVI dañada,PE
+TP03,Broken HDMI socket,Terminal HDMI dañada,PE
+TP04,Broken S-video socket,Terminal S-Video dañada,PE
+TP05,Broken SPDIF socket,Terminal SPDIF dañada,PE
+TP06,Broken AV socket,Terminal AV dañada,PE
+TP07,Broken Component socket,Terminal Componente dañada,PE
+TP08,Broken PC audio jack socket,Terminal PC Audio dañada,PE
+TP09,Broken external speaker socket,Terminal Bocina dañada,PE
+TP10,Broken RS232 socket,Terminal RS232 dañada,PE
+TP11,RF input damaged,Terminal RF dañada,PE
+TP12,S-video  port distortion,Distorsion en s-video,PE
+TP13,D conector distortion,Distortion en el conector D,PE
+TP14,Broken POWER SOURCE socket,Terminal AC dañada,PE
+TP15,Broken power out socket,Conector AC dañado,PE
 TP16,Broken USB socket,Terminal USB dañada,PD
 TP18,Missing packing parts,Partes de empaque ausentes.,PD
 TP19,Broken headphone input,entrada de audifonos quebrada,PD
@@ -599,13 +613,16 @@ TP25,USB input blocked,Entrada de USB bloqueada,PD
 TP26,Control panel broken,control panel quebrado,PD
 TP27,Glue on panel,Goma en el panel,PD
 TP28,Headphone input NG,Entrada de audifonos NG,PD
+TP29,SUBWOOFER SCRATCH,SUBWOOFER RAYADO,PD
+TP30,MIC SCRATCH,mICROFONO RAYADO,PD
+TP31,SPK NET DAMAGED,MALLA DE BOCINAS DAÑADA,PD
 TS01,SFIS missing scan,No se escaneo por SFIS,IT
 TT01,DDC writing NG,Escritura DDC NG,PE
 TT02,HDCP KEY writing NG,Escritura HDCP Key NG,RD
-TT03,ADC adjust NG,Ajuste ADC NG,
-TT04,Don't adjust WB,No ajusta WB,
-TT05,BU adjust NG,Ajuste BU NG,
-TT06,GAMA adjust NG,Ajuste GAMMA NG,
+TT03,ADC adjust NG,Ajuste ADC NG,PE
+TT04,Don't adjust WB,No ajusta WB,PE
+TT05,BU adjust NG,Ajuste BU NG,PE
+TT06,GAMA adjust NG,Ajuste GAMMA NG,PE
 TT07,HIPOT test NG,Prueba Hipot NG,PD
 TT08,Power consumption Test NG,Prueba de consumo de potencia NG,PD
 TT09,DDC reading NG,Lectura DDC NG,PD
@@ -616,5 +633,9 @@ TT13,Energy star don't compliand,no cumple con energy star,XM
 TT14,Don't detect WiFi signal,No detecta señal de WiFi,XM
 TT15,V-COM NG,V-COM NG,PD
 TT16,Power saving test NG,Prueba de ahorro de energia NG,PD
+TT20,Miss process,Falta proceso,QC
 TT21,FQC test fail (No DSN label),FQC test fail (No DSN label),PD
 TT22,NO TV burning,Falta calentamiento en la TV,MX inspect
+TT23,Mic test fail,Falla prueba de Microfono,PD
+TT24,"WB, Internal pattern error","WB, error en patron interno",PE
+TT25,"WB, Measure out of specification","WB,  Medida fuera de especificacion",PE
